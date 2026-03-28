@@ -3,7 +3,7 @@ import { getLocaleFromAcceptLanguage } from "@/lib/locale";
 import { ProjectDetailContent } from "./ProjectDetailContent";
 
 export default async function ProjectPage() {
-	const headersList = headers();
+	const headersList = await headers();
 	const locale = getLocaleFromAcceptLanguage(
 		headersList.get("accept-language"),
 	);

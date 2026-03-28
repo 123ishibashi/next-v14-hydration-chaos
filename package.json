@@ -10,16 +10,16 @@
 		"check-types": "tsc --noEmit"
 	},
 	"dependencies": {
-		"third-party-ui-component": "file:./third-party-ui-component",
-		"next": "14.2.35",
-		"react": "^18.3.1",
-		"react-dom": "^18.3.1"
+		"next": "^16.2.1",
+		"react": "^19.2.4",
+		"react-dom": "^19.2.4",
+		"third-party-ui-component": "file:./third-party-ui-component"
 	},
 	"devDependencies": {
+		"@biomejs/biome": "^2.2.4",
 		"@types/node": "^24",
-		"@types/react": "^18",
-		"@types/react-dom": "^18",
-		"typescript": "^5",
-		"@biomejs/biome": "^2.2.4"
+		"@types/react": "^19.2.14",
+		"@types/react-dom": "^19.2.3",
+		"typescript": "^5"
 	}
 }

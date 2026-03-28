@@ -3,7 +3,7 @@ import { getLocaleFromAcceptLanguage } from "@/lib/locale";
 import { TaskContent } from "./TaskContent";
 
 export default async function TaskPage() {
-	const headersList = headers();
+	const headersList = await headers();
 	const locale = getLocaleFromAcceptLanguage(
 		headersList.get("accept-language"),
 	);
